@@ -220,6 +220,7 @@ img{
 }
 
 /*BUTTONS*/
+
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -227,7 +228,9 @@ img{
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
+  margin-top:-20px;
 }
+
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
@@ -265,7 +268,7 @@ img{
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
-  padding: .5rem 1rem;
+  padding: .1rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -287,19 +290,9 @@ img{
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
-}
-.skills__html{
   width: 95%;
 }
-.skills__css{
-  width: 85%;
-}
-.skills__js{
-  width: 65%;
-}
-.skills__ux{
-  width: 85%;
-}
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -332,14 +325,14 @@ img{
   outline: none;
   margin-bottom: var(--mb-4);
 }
-.contact__button{
+/* .contact__button{
   display: block;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
-}
+} */
 
 /* ===== FOOTER =====*/
 .footer{
@@ -433,9 +426,13 @@ img{
   }
   .contact__form{
     width: 360px;
+    text-align: center;
   }
   .contact__container{
     justify-items: center;
+  }
+  .contact__emailBtn{
+    
   }
 }
 
