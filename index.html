@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+   <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
 
-    <title>Portfolio website complete</title>
+
+    
+    <link rel="stylesheet" href="assets/css/styles.css" />  
+
+
+
+
+    <title>SUJI OH - FULL STACK WEB DEVELOPER</title>
   </head>
-  <body>
+  <body id="bootstrap-overrides">
     <!--===== HEADER =====-->
     <header class="l-header">
       <nav class="nav bd-grid">
@@ -50,11 +53,14 @@
 
     <main class="l-main">
       <!--===== HOME =====-->
+
+    
+
       <section class="home bd-grid" id="home">
         <div class="home__data">
           <h1 class="home__title">
             Hi,<br />I am <span class="home__title-color">Suji</span><br />
-            Software Engineer
+            Full-Stack Web Developer
           </h1>
 
           <a href="#contact" class="button">Contact</a>
@@ -71,15 +77,15 @@
 
         <div class="about__container bd-grid">
           <div class="about__img">
-            <img src="assets/img/sujioh.jpg" alt="" />
+            <img id="my_img" src="assets/img/sujioh.jpg" alt="profile image" />
           </div>
 
           <div>
             <h2 class="about__subtitle">Hi, there! I am Suji Oh.</h2>
             <p class="about__text">
-              How are you doing? <br />Welcome to my portfolio website! I
-              started my journey to be a full-stack developer two years ago. I
-              have studied at Sheridan College-Computer Programmer- since 2019.
+              Welcome to my portfolio website! I started my journey to be a
+              full-stack developer two years ago. I have studied at Sheridan
+              College-Computer Programmer- since 2019.
               <br /><br />By pursuing my study at Sheridan and taking lots of
               courses from Udemy, I have realized how enjoyable coding is for
               me. <br /><br />
@@ -105,6 +111,24 @@
       </section>
 
       <!--===== SKILLS =====-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+          <div class="col-sm">
+            One of three columns
+          </div>
+        </div>
+      </div>
+
+
+    
+
       <section class="skills section" id="skills">
         <h2 class="section-title">Skills</h2>
 
@@ -112,7 +136,7 @@
           <div>
             <h2 class="skills__subtitle">Professional Skills</h2>
             <p class="skills__text">
-              My main experience is mostly in Java, Javascript React.JS, but I
+              My main experience is mostly in Java, Javascript, React.JS, but I
               also have a passion for .NET and Node.JS.
             </p>
 
@@ -186,27 +210,26 @@
         </div>
       </section>
 
-      <!--===== WORK =====-->
+           <!--===== WORK =====-->
 
-      <section class="work section" id="work">
-        <h2 class="section-title">Work</h2>
-
-        <div class="work__container bd-grid">
-            <div class="work__img">
-              <a href="https://react-my-burger-ffdc6.web.app/">
-                <img src="assets/img/work1.jpg" alt="pizza builder">
-              </a>
+           <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+    
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                  <a href="https://https-react-pizza-builde-c56a4.firebaseapp.com/">
+                    <img src="assets/img/work1.jpg" alt="pizza builder">
+                  </a>
+                </div>
+    
+                <div class="work__img">
+                  <a href="https://spring-toy-city.herokuapp.com/">
+                    <img src="assets/img/work2.jpg" alt="pizza builder">
+                  </a>
+                </div>
+    
             </div>
-
-            <div class="work__img">
-              <a href="https://spring-toy-city.herokuapp.com/">
-                <img src="assets/img/work2.jpg" alt="pizza builder">
-              </a>
-            </div>
-
-        </div>
-    </section>
-
+        </section>
 
       <!--===== CONTACT =====-->
       <section class="contact section" id="contact">
