@@ -1,6 +1,8 @@
-This is a portfolio web site. 
+# Portfolio Website by Sujijava
 
-Technology: JS
+# Technology
+JS
 
-Deployed at:https://sujioh.herokuapp.com/ 
+# Deployed at
+https://sujioh.herokuapp.com/ 
 
