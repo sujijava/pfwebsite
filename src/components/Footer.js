@@ -13,7 +13,7 @@ export default class Footer extends Component {
         <br></br>
         <br></br>
         <div>
-          <p style={{ fontSize: '20px' }}>
+          <p style={{ fontSize: '13px' }}>
               © 2021 <a href='https://github.com/sujijava'>Sujijava</a> |
             susieoh8@gmail.com
           </p>
