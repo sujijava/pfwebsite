@@ -96,16 +96,17 @@ input[type='submit'],
 input[type='reset'],
 input[type='button'] {
   /* font: 16px/30px 'opensans-bold', sans-serif; */
-  background: #11abb0;
+  background: #fff;
   display: inline-block;
   text-decoration: none;
   /* letter-spacing: 0; */
-  color: #fff;
+  color: grey;
   padding: 12px 20px;
   margin-bottom: 18px;
-  border: none;
+  border: 1px solid #fff;
   cursor: pointer;
   height: auto;
+  opacity: 0.8;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -122,8 +123,9 @@ button:hover,
 input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover {
-  background: #3d4145;
+  /* background: #3d4145; */
   color: #fff;
+  background: black;
 }
 
 .button:active,

@@ -69,14 +69,16 @@ export default class Resume extends Component {
           </div>
 
           <div className='nine columns main-col'>
-            <p>Most Experienced</p>
+            <p style={{ marginBottom: '5%', marginTop: '1.5%' }}>
+              Most Experienced
+            </p>
             <div className='bars'>
               <ul className='skill_icon_container'>
                 <Skill skill='devicon-react-original colored' />
                 <Skill skill='devicon-javascript-plain colored' />
                 <Skill skill='devicon-java-plain-wordmark colored' />
               </ul>
-              <p>Experienced</p>
+              <p style={{ marginBottom: '5%', marginTop: '9%' }}>Experienced</p>
               <ul className='skill_icon_container'>
                 <Skill skill='devicon-css3-plain-wordmark colored' />
                 <Skill skill='devicon-html5-plain colored' />
