@@ -24,9 +24,9 @@ export default class Porfolio extends Component {
                     />
                   </div>
                   <div className='col-9 desc-container'>
-                    <p style={{ fontWeight: 'bold', fontSize: 'medium' }}>
-                      {item.name}
-                    </p>
+                    <div className='project_title'>
+                      <p>{item.name}</p>
+                    </div>
                     <p>{item.description}</p>
                     <div
                       className='project_skills_container container'

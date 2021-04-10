@@ -4,26 +4,19 @@ export default class Footer extends Component {
     let resumeData = this.props.resumeData
     return (
       <footer>
-        <div className='row'>
-          <div className='twelve columns' style={{ marginLeft: '-5%' }}>
-            <ul className='social-links'>
-              {resumeData.socialLinks &&
-                resumeData.socialLinks.map((item) => {
-                  return (
-                    <li>
-                      <a style={{ textDecoration: 'none' }} href={item.url}>
-                        <i className={item.className} />
-                      </a>
-                    </li>
-                  )
-                })}
-            </ul>
-          </div>
-          <div id='go-top'>
-            <a className='smoothscroll' title='Back to Top' href='#home'>
-              <i className='fas fa-chevron-up' />
-            </a>
-          </div>
+        <div id='go-top'>
+          <a className='smoothscroll' title='Back to Top' href='#home'>
+            <i className='fas fa-chevron-up' />
+          </a>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <div>
+          <p style={{ fontSize: '20px' }}>
+              © 2021 <a href='https://github.com/sujijava'>Sujijava</a> |
+            susieoh8@gmail.com
+          </p>
         </div>
       </footer>
     )

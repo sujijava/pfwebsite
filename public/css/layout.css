@@ -22,8 +22,19 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
+.project_title p {
+  font-family: 'Codystar', cursive;
+  color: black;
+  font-weight: 900;
+  font-size: 33px;
+}
+
 body {
-  background: #0f0f0f;
+  font-size: 150%;
+  background: black;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+  color: #0f0f0f;
 }
 
 .rowWithMarginLeft {
@@ -36,11 +47,11 @@ body {
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
-/* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 header {
   position: relative;
-  height: 1100px;
+  height: 970px;
   width: 100%;
   background: #161415 url(../images/b.jpg) no-repeat top center;
   background-size: cover !important;
@@ -68,7 +79,7 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em 'opensans-bold', sans-serif;
+  font: 100px/1.1em 'Bungee Shade', cursive;
   color: #effffb;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
@@ -76,7 +87,7 @@ header .banner-text h1 {
   font-weight: 700;
 }
 header .banner-text h3 {
-  font: 18px/1.2em 'librebaskerville-regular', serif;
+  font: 20px/1.2em 'Julius Sans One', sans-serif;
   color: #fff;
   margin: 0 auto;
   width: 70%;
@@ -95,7 +106,7 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-  margin: 24px 0;
+  margin: 3%;
   padding: 0;
   font-size: 30px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
@@ -112,32 +123,8 @@ header .social li a:hover {
   color: #11abb0;
 }
 
-/* scrolldown link */
-header .scrolldown a {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  display: block;
-  height: 60px;
-  width: 60px;
-  font-size: 21px;
-  line-height: 42px;
-  color: #fff;
-  border-radius: 100%;
-  background-color: #525252;
-  padding-top: 10px;
-
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-header .scrolldown a:hover {
-  color: #11abb0;
-}
-
 /* primary navigation
---------------------------------------------------------------------- */
+  --------------------------------------------------------------------- */
 #nav-wrap ul,
 #nav-wrap li,
 #nav-wrap a {
@@ -210,13 +197,15 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
-/* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #about {
   background: #2b2b2b;
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+  /* font-family: 'Julius Sans One', sans-serif; */
+  font-family: 'Raleway', sans-serif;
 }
 
 #about a,
@@ -229,9 +218,561 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
+  /* font: 22px/30px 'opensans-bold', sans-serif; */
   color: #fff;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  v=/*
+  =====================================================================
+  *   Ceevee v1.0 Layout Stylesheet
+  *   url: styleshout.com
+  *   03-18-2014
+  =====================================================================
+  
+     TOC:
+     a. General Styles
+     b. Header Styles
+     c. About Section
+     d. Resume Section
+     e. Portfolio Section
+     f. Call To Action Section
+     g. Testimonials Section
+     h. Contact Section
+     i. Footer
+  
+  ===================================================================== */
+  
+  /* ------------------------------------------------------------------ */
+  /* a. General Styles
+  /* ------------------------------------------------------------------ */
+  
+  body {
+    font-size: 150%;
+    background: #0f0f0f;
+    /* font-family: 'Duru Sans', sans-serif; */
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    color: #0f0f0f;
+  }
+
+  .rowWithMarginLeft {
+    margin-left: 10%;
+  }
+
+  .rowWithMarginBottom {
+    margin-bottom: 10%;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* b. Header Styles
+  /* ------------------------------------------------------------------ */
+  header {
+    position: relative;
+    height: 970px;
+    width: 100%;
+    background: #161415 url(../images/b.jpg) no-repeat top center;
+    background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  /* vertically center banner section */
+  header:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  header .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  header .banner-text {
+    width: 100%;
+  }
+  header .banner-text h1 {
+    font: 100px/1.1em 'Bungee Shade', cursive;
+    color: #effffb;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1.5px 3.5px rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+  }
+  header .banner-text h3 {
+    font: 20px/1.2em 'Julius Sans One', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    width: 70%;
+    text-shadow: 0px 1.5px 2.5px rgba(0, 0, 0, 0.5);
+  }
+  header .banner-text h3 span,
+  header .banner-text h3 a {
+    color: #fff;
+  }
+  header .banner-text hr {
+    width: 60%;
+    margin: 18px auto 24px auto;
+    border-color: #2f2d2e;
+    border-color: rgba(150, 150, 150, 0.1);
+  }
+
+  /* header social links */
+  header .social {
+    margin: 3%;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  }
+  header .social li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+  }
+  header .social li a {
+    color: #fff;
+  }
+  header .social li a:hover {
+    color: #11abb0;
+  }
+
+  /* primary navigation
+  --------------------------------------------------------------------- */
+  #nav-wrap ul,
+  #nav-wrap li,
+  #nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+  }
+
+  /* nav-wrap */
+  #nav-wrap {
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  .opaque {
+    background-color: #333;
+  }
+
+  /* hide toggle button */
+  #nav-wrap > a.mobile-btn {
+    display: none;
+  }
+  ul#nav {
+    min-height: 48px;
+    width: auto;
+
+    /* center align the menu */
+    text-align: center;
+    background-color: black;
+  }
+  ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+  }
+
+  /* Links */
+  ul#nav li a {
+    /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+  }
+  ul#nav li a:active {
+    background-color: transparent !important;
+  }
+  ul#nav li.current a {
+    color: #f06000;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* c. About Section
+  /* ------------------------------------------------------------------ */
+
+  #about {
+    background: #2b2b2b;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #about a,
+  #about a:visited {
+    color: #fff;
+  }
+  #about a:hover,
+  #about a:focus {
+    color: #11abb0;
+  }
+
+  #about h2 {
+    /* font: 22px/30px 'opensans-bold', sans-serif; */
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: 900;
+    font-family: 'Bungee Shade', cursive;
+  }
+  #about p {
+    line-height: 30px;
+    color: #fff;
+    font-size: 25px;
+  }
+  #about .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+  #about .contact-details {
+    width: 41.66667%;
+  }
+  #about .download {
+    width: 58.33333%;
+    padding-top: 6px;
+  }
+  #about .main-col {
+    padding-right: 5%;
+  }
+  #about .download .button {
+    margin-top: 6px;
+    background: #444;
+  }
+  #about .download .button:hover {
+    background: #fff;
+    color: #2b2b2b;
+  }
+  #about .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* d. Resume Section
+  /* ------------------------------------------------------------------ */
+
+  #resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+  }
+
+  #resume a,
+  #resume a:visited {
+    color: #11abb0;
+  }
+  #resume a:hover,
+  #resume a:focus {
+    color: #313131;
+  }
+
+  #resume h1 {
+    /* font: 18px/24px 'opensans-bold', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Bungee Shade', cursive;
+  }
+  #resume h1 span {
+    border-bottom: 5px dotted #11abb0;
+    padding-bottom: 6px;
+    font-weight: 300;
+    font-weight: 900;
+    /* top: -100px; */
+    display: inline-block;
+  }
+  #resume h3 {
+    font: 30px 'opensans-bold', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 1%;
+  }
+
+  #resume .header-col {
+    padding-top: 9px;
+  }
+  #resume .main-col {
+    padding-right: 10%;
+  }
+
+  .education,
+  .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  #resume .info {
+    /* font: 16px/24px 'librebaskerville-italic', serif; */
+    color: #6e7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+  }
+  #resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #resume .date {
+    /* font: 15px/24px 'opensans-regular', sans-serif; */
+    margin-top: 6px;
+  }
+
+  .skill_icon_container i {
+    font-size: 500%;
+    margin: 8px 8px 8px 8px;
+  }
+  .skill_icon_container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  /*----------------------------------------------*/
+  /* Skill Bars
+  /*----------------------------------------------*/
+
+  .bars {
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
+  }
+  .bars .skills {
+    margin-top: 36px;
+    list-style: none;
+  }
+  .bars li {
+    position: relative;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 3px;
+  }
+  .bars li em {
+    font: 15px 'opensans-bold', sans-serif;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
+  }
+  .bar-expand {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding-right: 24px;
+    background: #313131;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* e. Portfolio Section
+  /* ------------------------------------------------------------------ */
+
+  #portfolio {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+  #portfolio h1 {
+    /* font: 15px/24px 'opensans-semibold', sans-serif; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: black;
+    font-family: 'Bungee Shade', cursive;
+    font-weight: 900;
+  }
+
+  /* Portfolio Content */
+
+  .portfolio-item {
+    text-align: center;
+  }
+
+  .portfolio-item img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .portfolio-item .item-wrap .link-icon {
+    display: block;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+  }
+  .portfolio-item .item-wrap img {
+    vertical-align: bottom;
+  }
+  .portfolio-item .portfolio-item-meta {
+    padding: 18px;
+  }
+  .portfolio-item .portfolio-item-meta h5 {
+    font: 14px/21px 'opensans-bold', sans-serif;
+    color: #fff;
+  }
+  .portfolio-item .portfolio-item-meta p {
+    font: 12px/18px 'opensans-light', sans-serif;
+    color: #c6c7c7;
+    margin-bottom: 0;
+  }
+
+  .project_skills_container i {
+    font-size: 50px;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .project_skills_container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .project_title p {
+    color: red;
+  }
+  /* ------------------------------------------------------------------ */
+  /* i. Footer
+  /* ------------------------------------------------------------------ */
+  footer {
+    padding-top: 48px;
+    margin-bottom: 48px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+  }
+  footer a,
+  footer a:visited {
+    color: #fff;
+  }
+  footer a:hover,
+  footer a:focus {
+    color: #fff;
+  }
+
+  /* copyright */
+  footer .copyright {
+    margin: 0;
+    padding: 0;
+  }
+  footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+  }
+  .ie footer .copyright li {
+    display: inline;
+  }
+  footer .copyright li:before {
+    content: '\2022';
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+  }
+  footer .copyright li:first-child:before {
+    display: none;
+  }
+
+  /* social links */
+  footer .social-links {
+    margin: 100px 0 30px 220px;
+    padding: 0;
+    font-size: 30px;
+  }
+  footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #f06000;
+  }
+  footer .social-links li:first-child {
+    margin-left: 0;
+  }
+
+  /* Go To Top Button */
+  #go-top {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -30px;
+  }
+  #go-top a {
+    text-decoration: none;
+    border: 0 none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #525252;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    color: #fff;
+    font-size: 21px;
+    line-height: 60px;
+    border-radius: 100%;
+  }
+  #go-top a:hover {
+    background-color: #0f9095;
+  }
 }
 #about p {
   line-height: 30px;
@@ -268,7 +809,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
-/* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #resume {
   background: #fff;
@@ -287,16 +828,24 @@ ul#nav li.current a {
 }
 
 #resume h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  /* font: 18px/24px 'opensans-bold', sans-serif; */
   text-transform: uppercase;
   letter-spacing: 1px;
+  /* font-family: 'Bungee Shade', cursive; */
+  font-family: 'Codystar', cursive;
 }
 #resume h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 2px solid #11abb0;
   padding-bottom: 6px;
+  font-weight: 300;
+  font-weight: 900;
+  /* top: -100px; */
+  display: inline-block;
 }
 #resume h3 {
-  font: 25px/30px 'opensans-bold', sans-serif;
+  font: 30px 'opensans-bold', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
+  margin-top: 1%;
 }
 
 #resume .header-col {
@@ -313,7 +862,7 @@ ul#nav li.current a {
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
+  /* font: 16px/24px 'librebaskerville-italic', serif; */
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -323,7 +872,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #resume .date {
-  font: 15px/24px 'opensans-regular', sans-serif;
+  /* font: 15px/24px 'opensans-regular', sans-serif; */
   margin-top: 6px;
 }
 
@@ -344,7 +893,7 @@ ul#nav li.current a {
 
 /*----------------------------------------------*/
 /*	Skill Bars
-/*----------------------------------------------*/
+  /*----------------------------------------------*/
 
 .bars {
   width: 95%;
@@ -388,7 +937,7 @@ ul#nav li.current a {
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
-/* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 #portfolio {
   background: #ebeeee;
@@ -396,12 +945,16 @@ ul#nav li.current a {
   padding-bottom: 60px;
 }
 #portfolio h1 {
-  font: 15px/24px 'opensans-semibold', sans-serif;
+  font-family: 'Codystar', cursive;
+  /* font: 15px/24px 'opensans-semibold', sans-serif; */
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
+  margin-bottom: 60px;
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: -30px;
 }
 
 /* Portfolio Content */
@@ -470,18 +1023,23 @@ ul#nav li.current a {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+.desc-container {
+  margin-top: 3%;
+}
 /* ------------------------------------------------------------------ */
 /* i. Footer
-/* ------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------ */
 
 footer {
-  padding-top: 48px;
-  margin-bottom: 48px;
+  /* padding-top: 10%; */
+  /* margin-bottom: 10%; */
   color: #fff;
   font-size: 14px;
   text-align: center;
   position: relative;
+  margin-top: 10%;
+  /* margin-bottom: 5%; */
+  /* padding-bottom: 5%; */
 }
 
 footer a,
@@ -538,9 +1096,11 @@ footer .social-links li:first-child {
 /* Go To Top Button */
 #go-top {
   position: absolute;
-  top: 30px;
+  /* top: 30px; */
   left: 50%;
-  margin-left: -30px;
+  /* margin-left: -30px; */
+  /* top: -60%; */
+  top: -20%;
 }
 #go-top a {
   text-decoration: none;

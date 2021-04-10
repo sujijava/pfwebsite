@@ -38,12 +38,11 @@ export default class Header extends Component {
 
           <div className='row banner'>
             <div className='banner-text'>
-              <h1 className='responsive-headline typing animate__animated animate__fadeInDown'>
-                I am {resumeData.name}.
+              <h1 className='responsive-headline animate__animated animate__fadeInDown'>
+                <span style={{ fontFamily: 'Codystar' }}>I am</span>
+                <span> {resumeData.name}.</span>
               </h1>
-              <h3 style={{ fontFamily: 'sans-serif ' }}>
-                I am a {resumeData.role}.{resumeData.roleDescription}
-              </h3>
+              <h3>{resumeData.roleDescription}</h3>
               <hr />
               <ul className='social'>
                 {resumeData.socialLinks &&
@@ -51,7 +50,10 @@ export default class Header extends Component {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target='_blank'>
-                          <i className={item.className} />
+                          <i
+                            style={{ fontSize: '100px' }}
+                            className={item.className}
+                          />
                         </a>
                       </li>
                     )
@@ -59,12 +61,6 @@ export default class Header extends Component {
               </ul>
             </div>
           </div>
-
-          <p className='scrolldown'>
-            <a className='smoothscroll' href='#about'>
-              <i className='fas fa-chevron-down' />
-            </a>
-          </p>
         </header>
       </React.Fragment>
     )

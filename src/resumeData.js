@@ -2,7 +2,7 @@ let resumeData = {
   name: 'Susie Oh',
   role: 'Software Engineer',
   roleDescription:
-    ' As a recent graduate from Sheridan(Computer Programmer), I am looking for new grad positions. I am focusing on React, JavaScript, and Java.',
+    'As a recent graduate from Sheridan(Computer Programmer), I am looking for new grad positions. I am focusing on React, JavaScript, and Java.',
   socialLinks: [
     {
       name: 'linkedin',
