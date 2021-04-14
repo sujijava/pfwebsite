@@ -25,12 +25,17 @@ let resumeData = {
       specialization: 'Computer Programmer',
       duration: '2019 Fall ~ 2021 Feb',
     },
+     {
+      UniversityName: 'Juno College of Technology',
+      specialization: 'React',
+      duration: '2021 April ~ ',
+    },
   ],
   work: [
     {
       CompanyName: 'Freelance Web Developer',
       specialization: 'Front-end Web Development (React)',
-      MonthOfLeaving: 'April',
+      MonthOfLeaving: 'March',
       YearOfLeaving: '2021~',
       Achievements:
         'Developing dating application with team members across Canada',
