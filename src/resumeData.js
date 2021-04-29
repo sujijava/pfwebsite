@@ -32,14 +32,6 @@ let resumeData = {
     },
   ],
   work: [
-    {
-      CompanyName: 'Dating App Proejct',
-      specialization: 'Front-end Web Development (React)',
-      MonthOfLeaving: 'March',
-      YearOfLeaving: '2021~',
-      Achievements:
-        'Developing dating application with team members across Canada',
-    },
   ],
   skillsDescription: 'Your skills here',
   skills: [
@@ -54,6 +46,22 @@ let resumeData = {
     },
   ],
   portfolio: [
+     {
+      name: 'Contact.com',
+      description: 'A contact management web application',
+      imgurl: 'images/projects/contact_com.jpg',
+      live_demo_url: 'https://contact-com.herokuapp.com/',
+      source_code_url: 'https://github.com/sujijava/contact_com',
+      skills: [
+        'devicon-react-original colored',
+        'devicon-mongodb-plain-wordmark colored',
+        'devicon-nodejs-plain-wordmark colored',
+        'devicon-express-original-wordmark colored',
+        'devicon-html5-plain colored',
+        'devicon-css3-plain-wordmark colored',
+        'devicon-bootstrap-plain-wordmark colored',
+      ],
+    },
     {
       name: 'Bay Shop',
       description: 'A e-commerce web site with shopping cart',
@@ -98,19 +106,6 @@ let resumeData = {
         'devicon-bootstrap-plain-wordmark colored',
         'devicon-html5-plain colored',
         'devicon-css3-plain-wordmark colored',
-      ],
-    },
-    {
-      name: 'Customizing Pizza Creator',
-      description: 'A order system for customizing pizza',
-      imgurl: 'images/projects/pizza.jpg',
-      live_demo_url: 'https://https-react-pizza-builde-c56a4.firebaseapp.com/',
-      source_code_url: 'https://github.com/sujijava/https-pizza-creator',
-      skills: [
-        'devicon-react-original colored',
-        'devicon-html5-plain colored',
-        'devicon-css3-plain-wordmark colored',
-        'devicon-bootstrap-plain-wordmark colored',
       ],
     },
   ],
