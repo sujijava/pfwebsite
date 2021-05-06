@@ -1,5 +1,5 @@
 let resumeData = {
-  name: 'Susie Oh',
+  name: 'Suji Oh',
   role: 'Software Engineer',
   roleDescription:
     'As a recent graduate from Sheridan(Computer Programmer), I am looking for new grad positions. I am focusing on React, JavaScript, and Java.',
@@ -18,7 +18,7 @@ let resumeData = {
   aboutme:
     'I am a software engineer who recently graduated from Sheridan(Computer Programmer). Looking for new grad positions. I am focusing on React, JavaScript, and Java.',
   address: 'Greater Toronto Area, Canada',
-  email: 'susieoh8@gmail.com',
+  email: 'sujioh5@gmail.com',
   education: [
     {
       UniversityName: 'Sheridan College',
