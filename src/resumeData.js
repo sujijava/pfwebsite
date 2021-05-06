@@ -18,7 +18,7 @@ let resumeData = {
   aboutme:
     'I am a software engineer who recently graduated from Sheridan(Computer Programmer). Looking for new grad positions. I am focusing on React, JavaScript, and Java.',
   address: 'Greater Toronto Area, Canada',
-  email: 'sujioh5@gmail.com',
+  email: 'susieoh8@gmail.com',
   education: [
     {
       UniversityName: 'Sheridan College',
