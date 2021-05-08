@@ -24,12 +24,7 @@ let resumeData = {
       UniversityName: 'Sheridan College',
       specialization: 'Computer Programmer',
       duration: '2019 Fall ~ 2021 Feb',
-    },
-     {
-      UniversityName: 'Juno College of Technology',
-      specialization: 'React',
-      duration: '2021 April ~ ',
-    },
+    }
   ],
   work: [
   ],
